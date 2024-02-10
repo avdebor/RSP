@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  border: none;
+  background: none;
+  font-family: "Roboto";
+}
+
+.wrap {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+body {
+  background: url(../img/bg.jpg) no-repeat center/cover;
+}
+.ui {
+  width: 80%;
+  margin-top: 100px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 35px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 220px;
+}
+.user-choice-main,
+.ai-choice-main {
+  width: 150px;
+  margin: 0 100px;
+}
+.maian img {
+  width: 150px;
+  min-width: 95px;
+}
+.choice-wrap {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+.choice-item {
+  padding: 15px;
+  box-shadow: 0 0 10px 0 white;
+  border-radius: 10px;
+  display: inline-block;
+  height: 200px;
+  width: 100px;
+  margin: 30px;
+  cursor: pointer;
+}
+.choice-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.choice-item img {
+  width: 60px;
+}
+.next-round-btn {
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 white;
+  cursor: pointer;
+}
